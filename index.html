@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Member Team Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header1">
+        <header>
+            <h1>OrangeticTech</h1>
+        </header>
+        <p>The OrangeticTech is tech company which provide services of IT.</p>
+    
+        <hr class="dashed_line">
+    
+    </div>
+    <div class="teamheader">
+        <h3> Meet Our Team</h3>
+        
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#important">Top Management People</a></li>
+            <li><a href="#management">Management Team</a></li>
+            <li><a href="#Development">Development Team</a></li>
+            <li><a href="#Marketing">Marketing Team</a></li>
+            <li><input type="text" id="searchBar" placeholder="Search team members by their names..." onkeyup="filterMembers()" ></li>
+            <!-- Add more departments as needed -->
+        </ul>
+    </nav>
+    <main>
+        <!-- Important People Section -->
+        <section id="important" class="team">
+            <h2>Top Management People</h2>
+            <div class="team-align">
+                <div class="team-member" data-modal="modal19">
+                    <img src="images/user1.jpg" alt="Important Person 1">
+                    <h3>John Doe</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="team-member" data-modal="modal20">
+                    <img src="images/user2.jpg" alt="Important Person 2">
+                    <h3>Jane Smith</h3>
+                    <p>CTO</p>
+                </div>
+                <div class="team-member" data-modal="modal21">
+                    <img src="images/user3.jpg" alt="Important Person 2">
+                    <h3>Jane Smith</h3>
+                    <p>CTO</p>
+                </div>
+                <div class="team-member" data-modal="modal22">
+                    <img src="images/user4.jpg" alt="Important Person 2">
+                    <h3>Jane Smith</h3>
+                    <p>CTO</p>
+                </div>
+                <div class="team-member" data-modal="modal23">
+                    <img src="images/user5.jpg" alt="Important Person 2">
+                    <h3>Jane Smith</h3>
+                    <p>CTO</p>
+                </div>
+            </div>
+
+           
+        </section>
+
+        <!-- Management Section -->
+        <section id="management" class="team">
+            <h2>Management Team</h2>
+            <div class="team-align">
+                <div class="team-member" data-modal="modal1">
+                    <img src="images/user5.jpg" alt="Management Member 1">
+                    <h3>Michael Scott</h3>
+                    <p>Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal2">
+                    <img src="images/user4.jpg" alt="Management Member 2">
+                    <h3>Pam Beesly</h3>
+                    <p>Office Administrator</p>
+                </div>
+                <div class="team-member" data-modal="modal3">
+                    <img src="images/user3.jpg" alt="Management Member 1">
+                    <h3>Michael Scott</h3>
+                    <p>Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal4">
+                    <img src="images/user2.jpg" alt="Management Member 2">
+                    <h3>Pam Beesly</h3>
+                    <p>Office Administrator</p>
+                </div>
+                <div class="team-member" data-modal="modal5">
+                    <img src="images/user1.jpg" alt="Management Member 1">
+                    <h3>Michael Scott</h3>
+                    <p>Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal6">
+                    <img src="images/user4.jpg" alt="Management Member 2">
+                    <h3>Pam Beesly</h3>
+                    <p>Office Administrator</p>
+                </div>
+            </div>
+           
+        </section>
+        <!-- Development peopLE section -->
+        <section id="Development" class="team">
+            <h2>Development Team</h2>
+            <div class="team-align">
+                <div class="team-member" data-modal="modal7">
+                    <img src="images/user3.jpg" alt="Development Member 1">
+                    <h3>Michael Scott</h3>
+                    <p>Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal8">
+                    <img src="images/user2.jpg" alt="Development Member 2">
+                    <h3>Pam Beesly</h3>
+                    <p>Office Administrator</p>
+                </div>
+                <div class="team-member" data-modal="modal9">
+                    <img src="images/user1.jpg" alt="Development Member 1">
+                    <h3>Michael Scott</h3>
+                    <p>Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal10">
+                    <img src="images/user5.jpg" alt="Development Member 2">
+                    <h3>Pam Beesly</h3>
+                    <p>Office Administrator</p>
+                </div>
+                <div class="team-member" data-modal="modal11">
+                    <img src="images/user3.jpg" alt="Development Member 1">
+                    <h3>Michael Scott</h3>
+                    <p>Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal12">
+                    <img src="images/user2.jpg" alt="Development Member 2">
+                    <h3>Pam Beesly</h3>
+                    <p>Office Administrator</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- marketing Section -->
+        <section id="Marketing" class="team">
+            <h2>Marketing Team</h2>
+            <div class="team-align">
+                <div class="team-member" data-modal="modal13">
+                    <img src="images/user1.jpg" alt="Marketing Member 1">
+                    <h3>Dwight Schrute</h3>
+                    <p>Assistant to the Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal14">
+                    <img src="images/user5.jpg" alt="Marketing Member 2">
+                    <h3>Jim Halpert</h3>
+                    <p>Sales Representative</p>
+                </div>
+                <div class="team-member" data-modal="modal15">
+                    <img src="images/user3.jpg" alt="Marketing Member 1">
+                    <h3>Dwight Schrute</h3>
+                    <p>Assistant to the Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal16">
+                    <img src="images/user4.jpg" alt="Marketing Member 2">
+                    <h3>Jim Halpert</h3>
+                    <p>Sales Representative</p>
+                </div>
+                <div class="team-member" data-modal="modal17">
+                    <img src="images/user5.jpg" alt="Marketing Member 1">
+                    <h3>Dwight Schrute</h3>
+                    <p>Assistant to the Regional Manager</p>
+                </div>
+                <div class="team-member" data-modal="modal18">
+                    <img src="images/user1.jpg" alt="Marketing Member 2">
+                    <h3>Jim Halpert</h3>
+                    <p>Sales Representative</p>
+                </div>
+            </div>
+
+            <!-- Repeat for other tech team members -->
+        </section>
+
+        <!-- Add more sections as needed -->
+    </main>
+
+    <!-- Modal Structure -->
+
+    <!-- Important People Section -->
+    <div id="modal19" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal19">&times;</span>
+            <img src="images/user1.jpg" alt="Important Person 2">
+            <h2>Pam Beesly</h2>
+            <p>Office Administrator</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal20" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal20">&times;</span>
+            <img src="images/user2.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal21" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal21">&times;</span>
+            <img src="images/user3.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal22" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal22">&times;</span>
+            <img src="images/user4.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal23" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal23">&times;</span>
+            <img src="images/user5.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+   
+
+    <!-- Management Section -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal1">&times;</span>
+            <img src="images/user5.jpg" alt="Important Person 1">
+            <h2>John Doe</h2>
+            <p>CEO</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal2">&times;</span>
+            <img src="images/user4.jpg" alt="Important Person 2">
+            <h2>Jane Smith</h2>
+            <p>CTO</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal3">&times;</span>
+            <img src="images/user3.jpg" alt="Important Person 1">
+            <h2>Michael Scott</h2>
+            <p>Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal4">&times;</span>
+            <img src="images/user2.jpg" alt="Important Person 2">
+            <h2>Pam Beesly</h2>
+            <p>Office Administrator</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal5">&times;</span>
+            <img src="images/user1.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal6">&times;</span>
+            <img src="images/user4.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal7">&times;</span>
+            <img src="images/user3.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+     <!-- Development peopLE section -->
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal8">&times;</span>
+            <img src="images/user2.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal9">&times;</span>
+            <img src="images/user1.jpg" alt="Important Person 1">
+            <h2>John Doe</h2>
+            <p>CEO</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal10" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal10">&times;</span>
+            <img src="images/user5.jpg" alt="Important Person 2">
+            <h2>Jane Smith</h2>
+            <p>CTO</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal11" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal11">&times;</span>
+            <img src="images/user3.jpg" alt="Important Person 1">
+            <h2>Michael Scott</h2>
+            <p>Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal12" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal12">&times;</span>
+            <img src="images/user2.jpg" alt="Important Person 2">
+            <h2>Pam Beesly</h2>
+            <p>Office Administrator</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+        <!-- marketing Section -->
+
+    <div id="modal13" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal13">&times;</span>
+            <img src="images/user1.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal14" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal14">&times;</span>
+            <img src="images/user5.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+
+
+    <div id="modal15" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal15">&times;</span>
+            <img src="images/user3.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal16" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal16">&times;</span>
+            <img src="images/user4.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal17" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal17">&times;</span>
+            <img src="images/user5.jpg" alt="Tech Member 1">
+            <h2>Dwight Schrute</h2>
+            <p>Assistant to the Regional Manager</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+    <div id="modal18" class="modal">
+        <div class="modal-content">
+            <span class="close" data-modal="modal18">&times;</span>
+            <img src="images/user1.jpg" alt="Tech Member 2">
+            <h2>Jim Halpert</h2>
+            <p>Sales Representative</p>
+            <p>Detailed bio...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+    </section>
+    </main>
+</body>
+
+</html>
